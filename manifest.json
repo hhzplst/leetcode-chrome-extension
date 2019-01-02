@@ -1,0 +1,20 @@
+ {
+    "name": "Leetcode Chrome Extension",
+    "version": "1.0",
+    "description": "A Chrome Extension that reminds me of the leetcode progress!",
+    "permissions": ["declarativeContent", "activeTab"],
+    "background": {
+    	"scripts": ["background.js"],
+    	"persistent": false
+    },
+    "page_action": {
+    	"default_popup": "popup.html",
+    	"default_icon": {
+    		"200": "idea.png"
+    	}
+    },
+    "icons": {
+    	"200": "idea.png"
+    },
+    "manifest_version": 2
+  }
